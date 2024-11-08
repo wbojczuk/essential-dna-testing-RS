@@ -19,7 +19,7 @@ return (
 
         <h1>Empowering Families, One Result at a Time.</h1>
 
-        <h3>Leading Mobile DNA Testing Solutions based in ST. Louis, MO.</h3>
+        <h3>Growing Mobile DNA Testing Solutions based in ST. Louis, MO.</h3>
 
         <Link href={"/contact"} className='main-link'>Contact</Link>
 
