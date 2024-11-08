@@ -32,10 +32,10 @@
 
 .textWrapper p{
     margin: 2vw 0;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-family: var(--secondary-font);
     line-height: 210%;
-    padding-right: 20%;
+    padding-right: 10%;
 }
 
 .imgWrapper{
@@ -63,13 +63,15 @@
     .textWrapper p{
         margin: 3vw 0;
         font-size: 1.2rem;
+        line-height: 130%;
+        padding-right: 0;
     }
     
     .imgWrapper{
         aspect-ratio: 1/1.2;
     }
     .textWrapper h2{
-        padding-right: 30%;
+        padding-right: 00%;
     }
 }
 
@@ -89,7 +91,8 @@
      .textWrapper p{
          margin: 6vw 0;
          font-size: 1.4rem;
-         padding-right: 30%;
+         padding-right: 10%;
+         line-height: 180%;
      }
      
      .imgWrapper{

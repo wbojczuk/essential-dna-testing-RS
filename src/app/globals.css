@@ -35,7 +35,7 @@
 }
 
 body{
-  padding-top: 4vw;
+  padding-top: 8vw;
   background-color: var(--primary-bg);
   font-family: var(--primary-font);
   color: var(--primary-text-color);

@@ -12,7 +12,7 @@ return (
 
     <Link href="/contact" target='_blank' className="main-link light">Contact</Link>
  
-    <img src='/img/findout.png' alt='Image of woman' className='bg-img' />
+    <img src='/img/findout.webp' alt='Image of woman' className='bg-img' />
     <div className='gradient-shader'></div>
  </div>
 )};

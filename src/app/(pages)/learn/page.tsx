@@ -1,11 +1,11 @@
-import Vision from "@/app/(mainsite)/components/aboutpage/Vision/Vision"
 import Today from "@/app/(mainsite)/components/homepage/Today/Today"
+import Learn from "@/app/(mainsite)/components/learnpage/Learn/Learn"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `About | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `About | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Learn | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Learn | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -26,11 +26,11 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 }
 }
 
-export default function AboutPage(){
+export default function LearnPage(){
 	 return(
 	 	 <>
-			<PageTitle pageTitle="About" />
-			<Vision />
+			<PageTitle pageTitle="Learn More" />
+			<Learn />
 			<Today />
 	 	 </>
 	 )

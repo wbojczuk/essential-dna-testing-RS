@@ -145,7 +145,7 @@ export default function Navbar() {
 
       <div className={styles.navContent}>
       <Link href="/" className={styles.logo}>
-        <img src="/img/logo.png" className={styles.logoImg} width={500} height={250} alt="Logo" />
+        <img src="/img/logo.webp" className={styles.logoImg} width={500} height={250} alt="Logo" />
         {/* <span>logo text</span> */}
       </Link>
 
@@ -190,7 +190,7 @@ export default function Navbar() {
 
 
           
-          <Link href="/contact" target="_blank" className={styles.cta}>
+          <Link href="/contact" className={styles.cta}>
             <span>Contact</span>
           </Link>
           

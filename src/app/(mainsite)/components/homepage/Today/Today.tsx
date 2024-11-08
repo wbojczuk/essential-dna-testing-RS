@@ -15,7 +15,7 @@ return (
     <Link className='main-link' href={`/contact`}>Contact</Link>
     </div>
  
-    <img src='/img/today.png' alt='Image of woman' className='bg-img' />
+    <img src='/img/today.webp' alt='Image of woman' className='bg-img' />
     <div style={{backgroundColor: "rgba(255,255,255,0.73)"}} className='shader'></div>
  </div>
 )};

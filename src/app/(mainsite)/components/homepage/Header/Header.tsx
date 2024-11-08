@@ -26,7 +26,7 @@ return (
     </div>
 
     <div className={styles.imgWrapper}>
-    <img src="/img/header-bg.png" alt="image of dna strand" className={`bg-img ${styles.img}`} />
+    <img src="/img/header-bg.webp" alt="image of dna strand" className={`bg-img ${styles.img}`} />
     </div>
 
 
