@@ -16,7 +16,7 @@ export default function Service(props: serviceProps) {
         </div>
         </div>
         <h5>{props.title}</h5>
-        <p className={styles.serviceDescription}>{props.description}</p>
+        <p className={styles.serviceDescription}><strong>{props.price} </strong><br /><br />{props.description}</p>
     </Link>
   )
 }

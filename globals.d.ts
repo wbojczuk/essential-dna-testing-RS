@@ -40,5 +40,6 @@ interface serviceType{
     icon: any,
     title: string,
     description: string,
-    url?: string
+    url?: string,
+    price?: string
 }
